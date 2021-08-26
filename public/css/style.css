@@ -1,0 +1,134 @@
+html {
+    background-color: #f0f3f4;
+    }
+body {
+    background-color: transparent;
+    color: #58666e;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding-top: 5px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 16px;
+  color: white;
+}
+
+/* navbar */
+.navbar-inverse {
+    background-color: #f04949;
+    border-color: #f04949;
+}
+/* title */
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size:20px;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #fff;
+}
+/* link */
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #f04949;
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #f04949;
+}
+
+
+
+
+.line {
+    font-size: 0;
+    height: 2px;
+    margin: 10px 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #2e3344;
+}
+
+.sidebar ul.nav li a > i {
+    float: left;
+    line-height: 40px;
+    margin: -10px 5px -10px -10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 40px;
+}
+
+.sidebar ul.nav li a{
+	font-weight: 700;
+}
+
+.nav li a:first{margin-left: 20%;}
+.nav li a{width:100%; margin-right: 45%;font-size:1.5em;}
+.nav li a i{margin-right: 10px;display: inline !important;}
+@media (min-width: 800px) and (max-width: 1100px) {
+	.nav li a {
+	    font-size: 1.5em;
+	    margin-right: 10%;
+	}
+}
+.nav li a .fa{display: inline !important;}
+
+
+/*** nav ends here ****/
+
+.title {
+	background-color: #34495e;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 5px;
+  margin-left: -80px;
+  margin-right: -80px
+}
+
+.underline{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.card {
+  border:5; 
+  max-width: 350px;
+  background-color: #f0f3f4;
+}
+
+.card-text{
+  font-size: 18px;
+  color: #000000;
+}
